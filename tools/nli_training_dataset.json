@@ -1,0 +1,290 @@
+[
+    {
+        "premise": "Man ska kunna ha 6 timmars arbetsdag och klara sig galant! Det är viktigt att dessa krav implementeras mycket noga i praktiken, det finns många företag som utnyttjar människor som exempelvis inte kan språket och har svårt att få jobb någon annanstans, där de får en otroligt låg lön.",
+        "hypothesis": "Den normala arbetsveckan ska behållas; fokus bör ligga på att öka lönen och köpkraften genom lägre skatter snarare än lagstadgade arbetstidsförkortningar.",
+        "label": "contradiction",
+        "party": "Alternativ för Sverige",
+        "pillar": "Economy",
+        "original_model_status": "Neutral / Delvis"
+    },
+    {
+        "premise": "Sverige ska  satsa på grön hållbar energi, och ska inte bygga nya kärnkraftverk eftersom det kostar för mycket. Sverige ska göra allt vi kan för att nå klimatmålen.",
+        "hypothesis": "Kärnkraften är helt avgörande. Staten ska skyndsamt bygga ut ny, svensk kärnkraft för att säkra billig och stabil el utan hänsyn till miljöaktivistiska mål.",
+        "label": "contradiction",
+        "party": "Alternativ för Sverige",
+        "pillar": "Climate",
+        "original_model_status": "Konflikt / Motsägelse"
+    },
+    {
+        "premise": "För de personer som bor på landet och bönder kan fossila bränslen behövas, och för dem ska det inte vara för dyrt, men annars bör skatten på drivmedel för de som har alternativ med kollektivtrafik vara hög. Ha lägre skatt på klimatsmart mat så som kål och lök.",
+        "hypothesis": "Reduktionsplikten ska avskaffas helt och drivmedelsskatterna sänkas drastiskt för att rädda landsbygden och sänka kostnaderna för bilister.",
+        "label": "neutral",
+        "party": "Alternativ för Sverige",
+        "pillar": "Climate",
+        "original_model_status": "Konflikt / Motsägelse"
+    },
+    {
+        "premise": "Det ska finnas god vård, utbildning och stöd för de som kommit som flyktingar. En individ som mår bra och känner sig välkommen kommer det gå bättre för.",
+        "hypothesis": "Asylinvandringen ska stoppas helt och hållet. Sverige ska inte ta emot några asylsökande eller kvotflyktingar överhuvudtaget.",
+        "label": "contradiction",
+        "party": "Alternativ för Sverige",
+        "pillar": "Immigration",
+        "original_model_status": "Neutral / Delvis"
+    },
+    {
+        "premise": "Jag tycker att språkkraven och språktesterna för att få stanna som medborgare i sverige måste försvinna, alla har olika förutsättningar för att klara språk, och man kan bidra till samhället och vara väl anpassad även fast man inte klarar ett språktest. Det ska vara mycket arbete i skolorna för att främja integration och att rasism ska minska.",
+        "hypothesis": "Medborgarskap ska inte delas ut lättvindigt; kravet bör vara etniskt svenskt eller långvarig, oklanderlig assimilation, och tidigare utdelade medborgarskap på felaktiga grunder bör kunna omprövas.",
+        "label": "contradiction",
+        "party": "Alternativ för Sverige",
+        "pillar": "Immigration",
+        "original_model_status": "Neutral / Delvis"
+    },
+    {
+        "premise": "Vi måste prioritera att sluta  deportera människor, så som det varit på senare tid. Lönekravet för att få stanna i sverige ska bort.",
+        "hypothesis": "Arbetskraftsinvandring till låglöneyrken ska stoppas. Endast spetskompetens som absolut inte går att rekrytera i Sverige ska tillåtas under mycket strikta former.",
+        "label": "contradiction",
+        "party": "Alternativ för Sverige",
+        "pillar": "Immigration",
+        "original_model_status": "Neutral / Delvis"
+    },
+    {
+        "premise": "Det är viktigt att ge människor medborgarskap och permanenta uppehållstillstånd så att de vågar satsa på utbildning och karriär, eller köpa bostad. Om uppehållstillståndet inte är permanent finns risken att man inte vågar gå en utbildning som kanske inte ens kommer kunna räknas om man blir deporterad.",
+        "hypothesis": "Medborgarskap ska inte delas ut lättvindigt; kravet bör vara etniskt svenskt eller långvarig, oklanderlig assimilation, och tidigare utdelade medborgarskap på felaktiga grunder bör kunna omprövas.",
+        "label": "contradiction",
+        "party": "Alternativ för Sverige",
+        "pillar": "Immigration",
+        "original_model_status": "Neutral / Delvis"
+    },
+    {
+        "premise": "Det behövs mer kontroll där. När det gäller tonåringar så ska vi ta bort straffåldern 13 år och ha den på 15 igen.",
+        "hypothesis": "Straffmyndighetsåldern ska sänkas och ungdomar som begår grova brott ska dömas i vanlig domstol och avtjäna riktiga fängelsestraff.",
+        "label": "contradiction",
+        "party": "Alternativ för Sverige",
+        "pillar": "Law And Order",
+        "original_model_status": "Neutral / Delvis"
+    },
+    {
+        "premise": "När det gäller tonåringar så ska vi ta bort straffåldern 13 år och ha den på 15 igen. Vi ska inte heller ha fängelser i estland, det är inte okej att anhöriga ska ha svårigheter att träffa de i fängelset.",
+        "hypothesis": "Straffmyndighetsåldern ska sänkas och ungdomar som begår grova brott ska dömas i vanlig domstol och avtjäna riktiga fängelsestraff.",
+        "label": "contradiction",
+        "party": "Alternativ för Sverige",
+        "pillar": "Law And Order",
+        "original_model_status": "Neutral / Delvis"
+    },
+    {
+        "premise": "Vården, skolan, transporter,posten och infrastruktur ska inte vara privat ägda utan måste vara en del av välfärden. Ha en statlig matbutik med billiga varor.",
+        "hypothesis": "Staten ska sälja av bolag på kommersiella marknader men behålla ansvaret för grundläggande infrastruktur och likvärdig service i hela landet.",
+        "label": "contradiction",
+        "party": "Centerpartiet",
+        "pillar": "Economy",
+        "original_model_status": "Neutral / Delvis"
+    },
+    {
+        "premise": "Man ska inte bli utförsäkrad när man är sjuk. Man ska dessutom kunna leva på bidragen, så de måste höjas.",
+        "hypothesis": "Det ska alltid löna sig att ta ett jobb, framför allt genom sänkta arbetsgivaravgifter och lägre skatt på låga inkomster snarare än ren fattigdomspolitik.",
+        "label": "contradiction",
+        "party": "Centerpartiet",
+        "pillar": "Economy",
+        "original_model_status": "Neutral / Delvis"
+    },
+    {
+        "premise": "Man ska dessutom kunna leva på bidragen, så de måste höjas. Ingen ska behöva vara hemlös eller behöva välja mellan mat eller hyra.",
+        "hypothesis": "Det ska alltid löna sig att ta ett jobb, framför allt genom sänkta arbetsgivaravgifter och lägre skatt på låga inkomster snarare än ren fattigdomspolitik.",
+        "label": "contradiction",
+        "party": "Centerpartiet",
+        "pillar": "Economy",
+        "original_model_status": "Neutral / Delvis"
+    },
+    {
+        "premise": "Man ska kunna ha 6 timmars arbetsdag och klara sig galant! Det är viktigt att dessa krav implementeras mycket noga i praktiken, det finns många företag som utnyttjar människor som exempelvis inte kan språket och har svårt att få jobb någon annanstans, där de får en otroligt låg lön.",
+        "hypothesis": "Nej. En generell lagstadgad arbetstidsförkortning skulle allvarligt skada svensk tillväxt och försvåra kompetensförsörjningen för företagen.",
+        "label": "contradiction",
+        "party": "Centerpartiet",
+        "pillar": "Economy",
+        "original_model_status": "Neutral / Delvis"
+    },
+    {
+        "premise": "Stora satsningar på järnvägar och kollektivtrafik som ett klimatsmart alternativ. För de personer som bor på landet och bönder kan fossila bränslen behövas, och för dem ska det inte vara för dyrt, men annars bör skatten på drivmedel för de som har alternativ med kollektivtrafik vara hög.",
+        "hypothesis": "Vi vill ställa om till biobränslen genom en fungerande reduktionsplikt men kompensera landsbygden och bilberoende genom sänkt fordonsskatt och regionala stöd.",
+        "label": "neutral",
+        "party": "Centerpartiet",
+        "pillar": "Climate",
+        "original_model_status": "Neutral / Delvis"
+    },
+    {
+        "premise": "vi måste ta större ansvar för klimatet, med åtgärder främst riktade mot rika personer (då de står för majoriteten av utsläppen) och framförallt måste företag ta mer ansvar. Sverige ska  satsa på grön hållbar energi, och ska inte bygga nya kärnkraftverk eftersom det kostar för mycket.",
+        "hypothesis": "Sverige ska hålla fast vid sina ambitiösa klimatmål och leda den gröna omställningen genom innovation, marknadslösningar och bioekonomi.",
+        "label": "neutral",
+        "party": "Centerpartiet",
+        "pillar": "Climate",
+        "original_model_status": "Neutral / Delvis"
+    },
+    {
+        "premise": "Sverige ska  satsa på grön hållbar energi, och ska inte bygga nya kärnkraftverk eftersom det kostar för mycket. Sverige ska göra allt vi kan för att nå klimatmålen.",
+        "hypothesis": "Fokus ska ligga på en snabb, marknadsdriven utbyggnad av förnybar el som vind- och solkraft. Kärnkraft ska tillåtas men inte subventioneras av staten.",
+        "label": "neutral",
+        "party": "Centerpartiet",
+        "pillar": "Climate",
+        "original_model_status": "Neutral / Delvis"
+    },
+    {
+        "premise": "Sverige ska göra allt vi kan för att nå klimatmålen. Cirkelhandel måste bekämpas.",
+        "hypothesis": "Sverige ska hålla fast vid sina ambitiösa klimatmål och leda den gröna omställningen genom innovation, marknadslösningar och bioekonomi.",
+        "label": "neutral",
+        "party": "Centerpartiet",
+        "pillar": "Climate",
+        "original_model_status": "Neutral / Delvis"
+    },
+    {
+        "premise": "Dessutom ska permanenta uppehållstillstånd inte gå att dra tillbaks. Det är viktigt att ge människor medborgarskap och permanenta uppehållstillstånd så att de vågar satsa på utbildning och karriär, eller köpa bostad.",
+        "hypothesis": "Vi stödjer rimliga språkkrav och fokus på egenförsörjning för medborgarskap, men permanenta uppehållstillstånd bör ges till den som jobbar och integreras.",
+        "label": "neutral",
+        "party": "Centerpartiet",
+        "pillar": "Immigration",
+        "original_model_status": "Logisk Följd / Stöd"
+    },
+    {
+        "premise": "Det är viktigt att ge människor medborgarskap och permanenta uppehållstillstånd så att de vågar satsa på utbildning och karriär, eller köpa bostad. Om uppehållstillståndet inte är permanent finns risken att man inte vågar gå en utbildning som kanske inte ens kommer kunna räknas om man blir deporterad.",
+        "hypothesis": "Vi stödjer rimliga språkkrav och fokus på egenförsörjning för medborgarskap, men permanenta uppehållstillstånd bör ges till den som jobbar och integreras.",
+        "label": "neutral",
+        "party": "Centerpartiet",
+        "pillar": "Immigration",
+        "original_model_status": "Logisk Följd / Stöd"
+    },
+    {
+        "premise": "Fokus ska vara på rehabilitering och inte på straff. Dessutom måste vi arbeta förebyggande för gängkriminalitet, genom att exempelvis minska på klassskillnader och lära ut om detta i tidig ålder.",
+        "hypothesis": "Straffen för grova vålds- och gängbrott måste skärpas, men det krävs samtidigt kraftfulla tidiga förebyggande insatser för att hindra barn från att bli kriminella.",
+        "label": "contradiction",
+        "party": "Centerpartiet",
+        "pillar": "Law And Order",
+        "original_model_status": "Konflikt / Motsägelse"
+    },
+    {
+        "premise": "Det behövs mer kontroll där. När det gäller tonåringar så ska vi ta bort straffåldern 13 år och ha den på 15 igen.",
+        "hypothesis": "Vi vill prioritera tidiga insatser via socialtjänst och skola framför att sänka straffmyndighetsåldern, men grova unga förövare ska omhändertas i säkra former.",
+        "label": "contradiction",
+        "party": "Centerpartiet",
+        "pillar": "Law And Order",
+        "original_model_status": "Neutral / Delvis"
+    },
+    {
+        "premise": "När det gäller tonåringar så ska vi ta bort straffåldern 13 år och ha den på 15 igen. Vi ska inte heller ha fängelser i estland, det är inte okej att anhöriga ska ha svårigheter att träffa de i fängelset.",
+        "hypothesis": "Vi vill prioritera tidiga insatser via socialtjänst och skola framför att sänka straffmyndighetsåldern, men grova unga förövare ska omhändertas i säkra former.",
+        "label": "contradiction",
+        "party": "Centerpartiet",
+        "pillar": "Law And Order",
+        "original_model_status": "Neutral / Delvis"
+    },
+    {
+        "premise": "Fokus ska vara på rehabilitering och inte på straff. Dessutom måste vi arbeta förebyggande för gängkriminalitet, genom att exempelvis minska på klassskillnader och lära ut om detta i tidig ålder.",
+        "hypothesis": "Frågor om straffmyndighetsålder och unga lagöverträdare lämpar sig utmärkt för direkta folkomröstningar där allmänheten väger säkerhet mot förebyggande arbete.",
+        "label": "neutral",
+        "party": "Direktdemokraterna",
+        "pillar": "Law And Order",
+        "original_model_status": "Neutral / Delvis"
+    },
+    {
+        "premise": "Rättspolitiken måste spegla folkets vilja fullt ut. Oavsett om det handlar om skärpta straffsatser och inkapacitering, eller vård och sänkt straffmyndighetsålder för ungdomsbrottslighet, bör medborgarna få fälla avgörandet.",
+        "hypothesis": "Rättspolitiken ska spegla folkets vilja; om medborgarna röstar för skärpta straff eller mer vård ska våra representanter rösta därefter i riksdagen.",
+        "label": "entailment",
+        "party": "Direktdemokraterna",
+        "pillar": "Law And Order",
+        "original_model_status": "Neutral / Delvis"
+    },
+    {
+        "premise": "När det kommer till klimat, energi och vår framtida energimix är frågorna för stora för blockpolitiken. Oavsett om det handlar om statligt stöd till ny kärnkraft eller om vi ska satsa på förnybar energi, så bör folket få bestämma.",
+        "hypothesis": "Energipolitiken är komplex och därmed idealisk för direktdemokrati, där medborgarna ges tillgång till opartisk fakta för att sedan rösta om energislagen.",
+        "label": "entailment",
+        "party": "Direktdemokraterna",
+        "pillar": "Climate",
+        "original_model_status": "Neutral / Delvis"
+    },
+    {
+        "premise": "Oavsett om det handlar om statligt stöd till ny kärnkraft eller om vi ska satsa på förnybar energi, så bör folket få bestämma. Nivån på bränsleskatter, reduktionsplikt och klimatmål måste avgöras direkt av väljarna i digitala omröstningar.",
+        "hypothesis": "Nivån på bränsleskatter och reduktionsplikt bör avgöras direkt av väljarna genom kontinuerliga digitala omröstningar.",
+        "label": "entailment",
+        "party": "Direktdemokraterna",
+        "pillar": "Climate",
+        "original_model_status": "Neutral / Delvis"
+    },
+    {
+        "premise": "Nivån på bränsleskatter, reduktionsplikt och klimatmål måste avgöras direkt av väljarna i digitala omröstningar. Även balansen mellan skogsbrukets äganderätt och miljöskydd mot kalhyggen är frågor som lämpar sig bäst för direktdemokrati där medborgarna ges fakta och sedan röstar.",
+        "hypothesis": "Nivån på bränsleskatter och reduktionsplikt bör avgöras direkt av väljarna genom kontinuerliga digitala omröstningar.",
+        "label": "entailment",
+        "party": "Direktdemokraterna",
+        "pillar": "Climate",
+        "original_model_status": "Neutral / Delvis"
+    },
+    {
+        "premise": "Idag är Sverige ett av de få länder i världen som tillåter riskkapitalister att plocka ut miljardvinster från våra skattepengar via skolor och äldreomsorg. Det är ett systemfel som leder till nedskärningar, stressad personal och ojämlikhet.",
+        "hypothesis": "Nej. Skattepengar ska gå oavkortat till välfärden, inte till privata företags vinster. Vi vill totalförbjuda vinstuttag i skola, vård och omsorg.",
+        "label": "entailment",
+        "party": "Vänsterpartiet",
+        "pillar": "Economy",
+        "original_model_status": "Konflikt / Motsägelse"
+    },
+    {
+        "premise": "En stark ekonomi bygger på att vi fördelar rikedomarna rättvist. Genom att införa förmögenhetsskatt och beskatta kapitalinkomster lika mycket som inkomst av arbete, kan vi frigöra resurser till massiva investeringar i samhällsbygget.",
+        "hypothesis": "Skattesystemet måste bli mer jämlikt. Vi vill beskatta kapital, förmögenheter och storföretag hårdare, samtidigt som vi sänker skatten för låg- och medelinkomsttagare.",
+        "label": "entailment",
+        "party": "Vänsterpartiet",
+        "pillar": "Economy",
+        "original_model_status": "Neutral / Delvis"
+    },
+    {
+        "premise": "Genom att införa förmögenhetsskatt och beskatta kapitalinkomster lika mycket som inkomst av arbete, kan vi frigöra resurser till massiva investeringar i samhällsbygget. Det handlar om att garantera trygga anställningar, höjda löner för arbetarklassen och en offentlig sektor som finns där när vi behöver den.",
+        "hypothesis": "Skattesystemet måste bli mer jämlikt. Vi vill beskatta kapital, förmögenheter och storföretag hårdare, samtidigt som vi sänker skatten för låg- och medelinkomsttagare.",
+        "label": "entailment",
+        "party": "Vänsterpartiet",
+        "pillar": "Economy",
+        "original_model_status": "Neutral / Delvis"
+    },
+    {
+        "premise": "Ha en statlig matbutik med billiga varor. Arbetares löner måste öka markant så det känns lönsamt att gå till arbetet, men det måste också vara mer lättillgängligt med bidrag för de som inte får ett jobb eller har möjlighet att jobba.",
+        "hypothesis": "Grundtryggheten ska stärkas. Högerpolitikens straffande 'bidragstak' och utförsäkringar skapar bara fattigdom; vi vill ha starka socialförsäkringar man kan lita på.",
+        "label": "entailment",
+        "party": "Vänsterpartiet",
+        "pillar": "Economy",
+        "original_model_status": "Logisk Följd / Stöd"
+    },
+    {
+        "premise": "Vi måste prioritera att sluta  deportera människor, så som det varit på senare tid. Lönekravet för att få stanna i sverige ska bort.",
+        "hypothesis": "Jag vill se en kraftigt begränsad arbetskraftsinvandringen och förespråkar ett högt lönegolv för att skydda svenska arbetstagare mot lönedumpning och utnyttjande. Det handlar också om att minska uttjande av invandarare.",
+        "label": "contradiction",
+        "party": "Sverigedemokraterna från reddit",
+        "pillar": "Immigration",
+        "original_model_status": "Logisk Följd / Stöd"
+    },
+    {
+        "premise": "Arbetares löner måste öka markant så det känns lönsamt att gå till arbetet, men det måste också vara mer lättillgängligt med bidrag för de som inte får ett jobb eller har möjlighet att jobba. Man ska inte bli utförsäkrad när man är sjuk.",
+        "hypothesis": "Vi förespråkar en ovillkorlig grundinkomst (medborgarlön) på sikt för att garantera ekonomisk trygghet och frihet för alla medborgare i ett automatiserat samhälle.",
+        "label": "neutral",
+        "party": "Piratpartiet",
+        "pillar": "Economy",
+        "original_model_status": "Neutral / Delvis"
+    },
+    {
+        "premise": "Dessutom ska permanenta uppehållstillstånd inte gå att dra tillbaks. Det är viktigt att ge människor medborgarskap och permanenta uppehållstillstånd så att de vågar satsa på utbildning och karriär, eller köpa bostad.",
+        "hypothesis": "Människor som flyr undan förtryck ska mötas av ett öppet och rättssäkert samhälle med tydliga, humana processer utan godtycke.",
+        "label": "neutral",
+        "party": "Piratpartiet",
+        "pillar": "Immigration",
+        "original_model_status": "Neutral / Delvis"
+    },
+    {
+        "premise": "Det är viktigt att ge människor medborgarskap och permanenta uppehållstillstånd så att de vågar satsa på utbildning och karriär, eller köpa bostad. Om uppehållstillståndet inte är permanent finns risken att man inte vågar gå en utbildning som kanske inte ens kommer kunna räknas om man blir deporterad.",
+        "hypothesis": "Människor som flyr undan förtryck ska mötas av ett öppet och rättssäkert samhälle med tydliga, humana processer utan godtycke.",
+        "label": "neutral",
+        "party": "Piratpartiet",
+        "pillar": "Immigration",
+        "original_model_status": "Neutral / Delvis"
+    },
+    {
+        "premise": "Sverige ska  satsa på grön hållbar energi, och ska inte bygga nya kärnkraftverk eftersom det kostar för mycket. Sverige ska göra allt vi kan för att nå klimatmålen.",
+        "hypothesis": "Vi stödjer en faktabaserad energipolitik där teknikneutralitet och hållbarhet prioriteras för att säkerställa en stabil elförsörjning åt ett digitaliserat samhälle.",
+        "label": "neutral",
+        "party": "Piratpartiet",
+        "pillar": "Climate",
+        "original_model_status": "Logisk Följd / Stöd"
+    }
+]

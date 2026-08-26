@@ -1,0 +1,143 @@
+{
+  "party_info": {
+    "name": "Direktdemokraterna",
+    "short_name": "DD",
+    "color": "#FFCC00",
+    "description": "Ett parti som kämpar för att flytta makten från traditionella politiker till medborgarna genom direktdemokrati, där väljarna själva kan rösta i enskilda sakfrågor via digitala plattformar."
+  },
+  "pillars": {
+    "Economy": [
+      {
+        "topic": "Vinster i välfärden & Friskolor",
+        "prompt": "Bör vinstdrivande företag och riskkapitalister tillåtas dela ut vinst från skattefinansierad skola, vård och omsorg?",
+        "stance": "Partiet saknar en egen officiell ideologisk åsikt i sakfrågor som denna; väljarna avgör genom direkta folkomröstningar hur välfärden ska organiseras och finansieras."
+      },
+      {
+        "topic": "Skatt på arbete kontra kapital",
+        "prompt": "Bör skattetrycket flyttas från lönearbete till kapital, förmögenhet och fastigheter, eller bör skatter sänkas generellt?",
+        "stance": "Skattenivåer och skattestruktur är upp till medborgarna att besluta om via direktdemokratiska omröstningar snarare än att styras av ett enskilt partiprogram."
+      },
+      {
+        "topic": "Arbetslinjen vs Bidragstak",
+        "prompt": "Bör ersättningsnivåer och bidrag begränsas med ett strikt bidragstak för att öka incitamenten att arbeta, eller bör grundtryggheten och ersättningarna stärkas?",
+        "stance": "Vi förespråkar att folkets vilja ska styra bidragssystemets utformning direkt genom digitala folkomröstningar."
+      },
+      {
+        "topic": "Arbetsrätt & LAS",
+        "prompt": "Bör arbetsrätten och turordningsreglerna (LAS) moderniseras och bli mer flexibla för arbetsgivare, eller ska anställningstryggheten och fackliga rättigheter värnas/stärkas?",
+        "stance": "Arbetsmarknadens lagar bör formas efter medborgarnas direkta beslutsfattande i stället för att låsas fast av traditionella blockpolitiska överenskommelser."
+      },
+      {
+        "topic": "Arbetstidsförkortning",
+        "prompt": "Bör Sverige införa lagstadgad förkortad arbetstid (t.ex. 6 timmars arbetsdag med bibehållen lön), eller bör den standardiserade 40-timmarsveckan behållas?",
+        "stance": "Arbetstidens längd är en utmärkt fråga för en rådgivande eller bindande folkomröstning där hela befolkningen får väga för- och nackdelar mot varandra."
+      },
+      {
+        "topic": "Bostadsmarknad & Marknadshyror",
+        "prompt": "Bör friare hyressättning/marknadshyror tillåtas vid nyproduktion för att stimulera byggande, eller ska det kollektiva förhandlingssystemet och hyresregleringen bevaras?",
+        "stance": "Bostadspolitiken bör präglas av öppenhet och direktdemokratiska principer där folket röstar om hur hyresmarknaden och byggandet ska skötas."
+      },
+      {
+        "topic": "Statligt ägande & Privatisering",
+        "prompt": "Bör staten avyttra/privatisera bolag på konkurrensutsatta marknader, eller bör statens ägande och kontroll över samhällskritisk infrastruktur öka?",
+        "stance": "Frågor om statligt ägande och privatisering bör avgöras av medborgarna direkt, eftersom det rör gemensamma tillgångar och samhällsnytta."
+      },
+      {
+        "topic": "Valuta & Euron",
+        "prompt": "Bör Sverige utreda eller aktivt arbeta för att överge den svenska kronan och ansluta sig till Euron (€)?",
+        "stance": "Ett så pass stort suveränitetsbeslut som att byta valuta bör lämnas direkt till svenska folket i en folkomröstning."
+      },
+      {
+        "topic": "RUT- & ROT-avdrag",
+        "prompt": "Bör skattereduktioner för hushållsnära tjänster (RUT/ROT) bevaras/utökas, eller avvecklas/trappas ned?",
+        "stance": "Vi tar inte ställning i sakfrågor utan fungerar som en röstkanal för medborgarna; väljarna avgör om RUT och ROT ska finnas kvar."
+      }
+    ],
+    "Climate": [
+      {
+        "topic": "Energimix & Kärnkraft",
+        "prompt": "Bör staten aktivt underlätta och finansiera en storskalig utbyggnad av ny kärnkraft, eller bör fokus ligga helt på förnybar energi (vind, sol, bioenergi)?",
+        "stance": "Energipolitiken är komplex och därmed idealisk för direktdemokrati, där medborgarna ges tillgång till opartisk fakta för att sedan rösta om energislagen."
+      },
+      {
+        "topic": "Bränsleskatter & Reduktionsplikt",
+        "prompt": "Bör drivmedelsskatter och reduktionsplikten hållas på ett absolut minimum för att sänka pump-priserna, eller användas som ett aktivt klimatpolitiskt styrmedel?",
+        "stance": "Nivån på bränsleskatter och reduktionsplikt bör avgöras direkt av väljarna genom kontinuerliga digitala omröstningar."
+      },
+      {
+        "topic": "Skogsbruk & Äganderätt",
+        "prompt": "Bör skogsägarnas äganderätt och det aktiva produktionsskogsbruket försvaras, eller ska mer skog och biologisk mångfald skyddas med restriktioner mot kalhyggen?",
+        "stance": "Balansen mellan äganderätt och miljöskydd bör avgöras genom folkets direkta beslut i en öppen demokratisk process."
+      },
+      {
+        "topic": "Klimatmål & EU-harmonisering",
+        "prompt": "Bör Sveriges nationella klimatmål anpassas efter EU:s minimikrav för att inte skada svensk konkurrenskraft, eller ska Sverige behålla skarpare nationella mål och vara ett föregångsland?",
+        "stance": "Sveriges klimatmål och relation till internationella överenskommelser bör bestämmas av väljarna, inte av riksdagspartiernas interna uppgörelser."
+      },
+      {
+        "topic": "Statliga klimatinvesteringar & Industristöd",
+        "prompt": "Bör staten ta en aktiv finansiell ledarroll i industrins gröna omställning (kreditgarantier, grönt stål), eller ska marknaden och teknikneutralitet styra?",
+        "stance": "Hur statliga medel ska användas för industrins omställning är en budgetfråga som lämpligen kan styras av direktdemokratiska mandat."
+      },
+      {
+        "topic": "Konsumtion & Livsstilsregleringar",
+        "prompt": "Bör staten använda skatter och förbud för att minska ohållbar konsumtion (t.ex. flygskatt, köttkonsumtion), eller ska klimatomställningen uteslutande bygga på teknisk utveckling?",
+        "stance": "Skatter och regleringar som påverkar medborgarnas livsstil bör röstas om direkt av dem som berörs av lagarna."
+      }
+    ],
+    "Immigration": [
+      {
+        "topic": "Asylvolymer & Asylrätt",
+        "prompt": "Bör asylinvandringen till Sverige minimeras/pausas till förmån för hjälp i närområdet, eller ska den individuella asylrätten och generösa kvotflyktingmottagandet försvaras?",
+        "stance": "Migrationspolitiken är en av Sveriges mest debatterade frågor och bör därför omedelbart lämnas över till svenska folket för direkta beslut via omröstningar."
+      },
+      {
+        "topic": "Krav för Medborgarskap & Uppehållstillstånd",
+        "prompt": "Bör kraven för uppehållstillstånd och medborgarskap skärpas (språkprov, egenförsörjning, vandel, tidsbegränsade tillstånd som norm), eller ska permanenta tillstånd och humanitära skyddsgrunder underlättas?",
+        "stance": "Reglerna för medborgarskap och uppehållstillstånd bestäms bäst genom att medborgarna själva får rösta fram de exakta kriterierna."
+      },
+      {
+        "topic": "Återvandring & Utvisningar",
+        "prompt": "Bör staten satsa på storskaliga återvandringsprogram och obligatoriskt verkställda utvisningar av personer utan skyddsbehov, eller erbjuda amnesti/stoppade utvisningar för rotade individer?",
+        "stance": "Vi förespråkar att alla stora samhällsfrågor, inklusive migrations- och integrationspolitik, avgörs genom att partimedlemmar och väljare direkt styr våra mandat i riksdagen."
+      },
+      {
+        "topic": "Arbetskraftsinvandring & Lönegolv",
+        "prompt": "Bör arbetskraftsinvandring begränsas med höga lönegolv för att skydda svenska kollektivavtal från lönedumpning, eller vara öppen och marknadsstyrd för att hjälpa företag att rekrytera kompetens?",
+        "stance": "Utformningen av arbetskraftsinvandringen bör vara upp till väljarna att besluta om via direktdemokratiska system."
+      },
+      {
+        "topic": "Informationsplikt ('Angiverilag')",
+        "prompt": "Bör offentliganställda (t.ex. inom skola och vård) vara skyldiga att informera Polisen/Migrationsverket om personer som vistas i landet utan tillstånd?",
+        "stance": "Lagar som rör myndigheters skyldigheter bör prövas av väljarkåren genom direkta och transparenta omröstningar."
+      }
+    ],
+    "Law And Order": [
+      {
+        "topic": "Straffsatser & Inkapacitering vs Vård",
+        "prompt": "Bör straffen för grov brottslighet skärpas kraftigt med fokus på ren inlåsning/inkapacitering, eller bör Kriminalvårdens tyngdpunkt ligga på rehabilitering och återfallsförebyggande insatser?",
+        "stance": "Rättspolitiken ska spegla folkets vilja; om medborgarna röstar för skärpta straff eller mer vård ska våra representanter rösta därefter i riksdagen."
+      },
+      {
+        "topic": "Ungdomsbrottslighet & Straffmyndighetsålder",
+        "prompt": "Bör straffmyndighetsåldern sänkas och grovt kriminella unga låsas in i ungdomsfängelser, eller ska socialtjänsten och tidiga preventiva insatser i skola/familj ha huvudansvaret?",
+        "stance": "Frågor om straffmyndighetsålder och unga lagöverträdare lämpar sig utmärkt för direkta folkomröstningar där allmänheten väger säkerhet mot förebyggande arbete."
+      },
+      {
+        "topic": "Tvångsmedel kontra Integritet",
+        "prompt": "Bör polisen ges utökade befogenheter som preventiv hemlig avlyssning, visitationszoner och anonyma vittnen, eller inskränker sådana åtgärder rättssäkerheten och den personliga integriteten för mycket?",
+        "stance": "Balansen mellan brottsbekämpning och personlig integritet bör avgöras av medborgarna själva genom direktdemokratiskt beslutsfattande."
+      },
+      {
+        "topic": "Narkotikapolitik & Avkriminalisering",
+        "prompt": "Bör narkotikapolitiken bibehålla en strikt nollvision med straff och förbud även mot eget bruk, eller bör eget bruk avkriminaliseras till förmån för skademinimering och vårdinsatser?",
+        "stance": "Narkotikapolitikensinriktning bör avgöras genom att ge väljarna direkt inflytande via digitala röstningsplattformar."
+      },
+      {
+        "topic": "Utvisning vid brott",
+        "prompt": "Bör utländska medborgare som döms för allvarliga brott i princip alltid utvisas på livstid oavsett anknytning till Sverige, eller ska individuella hänsyn till familjeband och skyddsbehov väga tyngre?",
+        "stance": "Vi har ingen fast partiideologi i sakfrågor utan låter våra röstande medlemmar och väljare bestämma hur partiet ska rösta i riksdagen i denna fråga."
+      }
+    ]
+  }
+}

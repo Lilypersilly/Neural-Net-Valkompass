@@ -1,0 +1,36 @@
+==================================================
+MULTI-PERSPECTIVE STANCE AGGREGATION BLUEPRINT
+==================================================
+
+1. DATA COLLECTION & PREPARATION:
+   - Collect crowdsourced voter/party responses per pillar.
+   - Run responses through a clustering algorithm (e.g., HDBSCAN or 
+     Agglomerative Clustering) using the fine-tuned SBERT model.
+   - Group similar voter motivations into distinct sub-arguments/clusters.
+
+2. STANCE EVALUATION & EXTRACTION:
+   - Run NLI agreement checks to determine if each cluster supports 
+     or opposes the core pillar proposition.
+   - Sort clusters by size (popularity among voters/party base).
+   - Extract the top 3 largest motivational clusters and their centroid 
+     (most representative statement) along with their relative size weight.
+
+3. RUNTIME SOFTWARE EXECUTION:
+   - User essay chunks are evaluated against all 3 representative 
+     clusters for each party.
+   - Instead of matching a single monolithic statement, the software 
+     finds the alignment scores across the internal ideological factions.
+
+4. SCORING MATH (CLUSTER-WEIGHTED AVERAGE):
+   - Compute the final party alignment score using a weighted average 
+     anchored by cluster prevalence:
+     
+     Final Score = (Score_1 * Weight_1) + (Score_2 * Weight_2) + (Score_3 * Weight_3)
+     
+   - This captures internal party diversity without drowning out majority 
+     consensus or alienating minority factions.
+
+5. UI & TRANSPARENCY BENEFIT:
+   - Display matching breakdowns to the user: "You match Party X primarily 
+     on their [Cluster 1 Name] rationale (supported by X% of their base), 
+     with secondary alignment on..."

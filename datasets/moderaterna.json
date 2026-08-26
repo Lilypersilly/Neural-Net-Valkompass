@@ -1,0 +1,143 @@
+{
+  "party_info": {
+    "name": "Moderaterna",
+    "short_name": "M",
+    "color": "#019CDE",
+    "description": "Ett liberalkonservativt parti som värnar individuell frihet, marknadsekonomi, ett starkt rättsväsende och att det alltid ska löna sig att arbeta."
+  },
+  "pillars": {
+    "Economy": [
+      {
+        "topic": "Vinster i välfärden & Friskolor",
+        "prompt": "Bör vinstdrivande företag och riskkapitalister tillåtas dela ut vinst från skattefinansierad skola, vård och omsorg?",
+        "stance": "Valfrihet och entreprenörskap ska värnas och drivna aktörer ska få gå med vinst. Däremot ska vi ställa stenhårda kvalitetskrav och stoppa oseriösa aktörer."
+      },
+      {
+        "topic": "Skatt på arbete kontra kapital",
+        "prompt": "Bör skattetrycket flyttas från lönearbete till kapital, förmögenhet och fastigheter, eller bör skatter sänkas generellt?",
+        "stance": "Skattetrycket ska sänkas generellt, framför allt på arbete och företagande. Vi avvisar alla former av återinförd förmögenhets-, fastighets- och arvsskatt."
+      },
+      {
+        "topic": "Arbetslinjen vs Bidragstak",
+        "prompt": "Bör ersättningsnivåer och bidrag begränsas med ett strikt bidragstak för att öka incitamenten att arbeta, eller bör grundtryggheten och ersättningarna stärkas?",
+        "stance": "Arbetslinjen måste återupprättas genom ett strikt bidragstak och sänkta inkomstskatter. Det ska alltid löna sig bättre att arbeta än att leva på bidrag."
+      },
+      {
+        "topic": "Arbetsrätt & LAS",
+        "prompt": "Bör arbetsrätten och turordningsreglerna (LAS) moderniseras och bli mer flexibla för arbetsgivare, eller ska anställningstryggheten och fackliga rättigheter värnas/stärkas?",
+        "stance": "Arbetsrätten behöver fortsätta att moderniseras och göras flexiblare för att underlätta för företag att anställa och behålla rätt kompetens."
+      },
+      {
+        "topic": "Arbetstidsförkortning",
+        "prompt": "Bör Sverige införa lagstadgad förkortad arbetstid (t.ex. 6 timmars arbetsdag med bibehållen lön), eller bör den standardiserade 40-timmarsveckan behållas?",
+        "stance": "Nej. Lagstadgad arbetstidsförkortning vore ett dråpslag mot Sveriges tillväxt, företagens konkurrenskraft och välfärdens finansiering."
+      },
+      {
+        "topic": "Bostadsmarknad & Marknadshyror",
+        "prompt": "Bör friare hyressättning/marknadshyror tillåtas vid nyproduktion för att stimulera byggande, eller ska det kollektiva förhandlingssystemet och hyresregleringen bevaras?",
+        "stance": "Vi förespråkar friare hyressättning vid nyproduktion och avregleringar av byggregler för att öka rörligheten och få fart på byggandet."
+      },
+      {
+        "topic": "Statligt ägande & Privatisering",
+        "prompt": "Bör staten avyttra/privatisera bolag på konkurrensutsatta marknader, eller bör statens ägande och kontroll över samhällskritisk infrastruktur öka?",
+        "stance": "Staten bör inte äga bolag på fullt konkurrensutsatta marknader. Statens roll ska fokuseras på kärnuppgifterna och säkerhetspolitisk infrastruktur."
+      },
+      {
+        "topic": "Valuta & Euron",
+        "prompt": "Bör Sverige utreda eller aktivt arbeta för att överge den svenska kronan och ansluta sig till Euron (€)?",
+        "stance": "Vi är positiva till ett fördjupat europeiskt samarbete och öppna för att utreda för- och nackdelar med ett eventuellt framtida eurointräde."
+      },
+      {
+        "topic": "RUT- & ROT-avdrag",
+        "prompt": "Bör skattereduktioner för hushållsnära tjänster (RUT/ROT) bevaras/utökas, eller avvecklas/trappas ned?",
+        "stance": "RUT och ROT ska bevaras och gärna utvecklas; de minskar svartjobb, skapar enkla vägar in på arbetsmarknaden och underlättar människors vardag."
+      }
+    ],
+    "Climate": [
+      {
+        "topic": "Energimix & Kärnkraft",
+        "prompt": "Bör staten aktivt underlätta och finansiera en storskalig utbyggnad av ny kärnkraft, eller bör fokus ligga helt på förnybar energi (vind, sol, bioenergi)?",
+        "stance": "Kärnkraften är ryggraden i ett fossilfritt, stabilt och leveranssäkert elsystem. Staten ska skapa optimala förutsättningar och kreditgarantier för ny kärnkraft."
+      },
+      {
+        "topic": "Bränsleskatter & Reduktionsplikt",
+        "prompt": "Bör drivmedelsskatter och reduktionsplikten hållas på ett absolut minimum för att sänka pump-priserna, eller användas som ett aktivt klimatpolitiskt styrmedel?",
+        "stance": "Drivmedelsskatter och reduktionsplikt ska hållas nere för att underlätta för hushåll och företag som är beroende av bilen i hela landet."
+      },
+      {
+        "topic": "Skogsbruk & Äganderätt",
+        "prompt": "Bör skogsägarnas äganderätt och det aktiva produktionsskogsbruket försvaras, eller ska mer skog och biologisk mångfald skyddas med restriktioner mot kalhyggen?",
+        "stance": "Den privata äganderätten och det aktiva svenska skogsbruket måste försvaras mot överreglering från både svenska myndigheter och EU."
+      },
+      {
+        "topic": "Klimatmål & EU-harmonisering",
+        "prompt": "Bör Sveriges nationella klimatmål anpassas efter EU:s minimikrav för att inte skada svensk konkurrenskraft, eller ska Sverige behålla skarpare nationella mål och vara ett föregångsland?",
+        "stance": "Klimatarbetet måste vara effektivt och harmoniserat inom EU så att inte svensk konkurrenskraft och hushållens ekonomi straffas orimligt."
+      },
+      {
+        "topic": "Statliga klimatinvesteringar & Industristöd",
+        "prompt": "Bör staten ta en aktiv finansiell ledarroll i industrins gröna omställning (kreditgarantier, grönt stål), eller ska marknaden och teknikneutralitet styra?",
+        "stance": "Teknikneutralitet, stabila spelregler och fossilfri elförsörjning är statens uppgift; marknaden och företagen ska driva de faktiska industriinvesteringarna."
+      },
+      {
+        "topic": "Konsumtion & Livsstilsregleringar",
+        "prompt": "Bör staten använda skatter och förbud för att minska ohållbar konsumtion (t.ex. flygskatt, köttkonsumtion), eller ska klimatomställningen uteslutande bygga på teknisk utveckling?",
+        "stance": "Klimatomställningen ska ske genom teknikutveckling, elektrifiering och innovation, inte genom moraliserande skatter och förbud."
+      }
+    ],
+    "Immigration": [
+      {
+        "topic": "Asylvolymer & Asylrätt",
+        "prompt": "Bör asylinvandringen till Sverige minimeras/pausas till förmån för hjälp i närområdet, eller ska den individuella asylrätten och generösa kvotflyktingmottagandet försvaras?",
+        "stance": "Asylinvandringen till Sverige måste ligga på EU:s miniminivå under överskådlig tid för att bryta utanförskapet och möjliggöra en fungerande integration."
+      },
+      {
+        "topic": "Krav för Medborgarskap & Uppehållstillstånd",
+        "prompt": "Bör kraven för uppehållstillstånd och medborgarskap skärpas (språkprov, egenförsörjning, vandel, tidsbegränsade tillstånd som norm), eller ska permanenta tillstånd och humanitära skyddsgrunder underlättas?",
+        "stance": "Kraven ska skärpas rejält med obligatoriska språk- och samhällsprov, vandelsprövning, egenförsörjning och tidsbegränsade tillstånd som grundnorm."
+      },
+      {
+        "topic": "Återvandring & Utvisningar",
+        "prompt": "Bör staten satsa på storskaliga återvandringsprogram och obligatoriskt verkställda utvisningar av personer utan skyddsbehov, eller erbjuda amnesti/stoppade utvisningar för rotade individer?",
+        "stance": "Ett nej ska vara ett nej; utvisningar ska verkställas med kraft och återvandring ska uppmuntras för personer som inte kommit in i det svenska samhället."
+      },
+      {
+        "topic": "Arbetskraftsinvandring & Lönegolv",
+        "prompt": "Bör arbetskraftsinvandring begränsas med höga lönegolv för att skydda svenska kollektivavtal från lönedumpning, eller vara öppen och marknadsstyrd för att hjälpa företag att rekrytera kompetens?",
+        "stance": "Vi vill prioritera högkvalificerad arbetskraftsinvandring och stoppa fusk och exploatering i låglöneyrken genom skärpta lönekrav."
+      },
+      {
+        "topic": "Informationsplikt ('Angiverilag')",
+        "prompt": "Bör offentliganställda (t.ex. inom skola och vård) vara skyldiga att informera Polisen/Migrationsverket om personer som vistas i landet utan tillstånd?",
+        "stance": "Myndigheter och offentliga organ ska samarbeta för att motverka skuggsamhället, med rimliga och väl avvägda undantag där så krävs."
+      }
+    ],
+    "Law And Order": [
+      {
+        "topic": "Straffsatser & Inkapacitering vs Vård",
+        "prompt": "Bör straffen för grov brottslighet skärpas kraftigt med fokus på ren inlåsning/inkapacitering, eller bör Kriminalvårdens tyngdpunkt ligga på rehabilitering och återfallsförebyggande insatser?",
+        "stance": "Straffen för grova brott och gängkriminalitet måste skärpas kraftigt med fokus på upprättelse för brottsoffret och långvarig inkapacitering."
+      },
+      {
+        "topic": "Ungdomsbrottslighet & Straffmyndighetsålder",
+        "prompt": "Bör straffmyndighetsåldern sänkas och grovt kriminella unga låsas in i ungdomsfängelser, eller ska socialtjänsten och tidiga preventiva insatser i skola/familj ha huvudansvaret?",
+        "stance": "Ungdomsfängelser ska ersätta SiS-hemmen för grovt kriminella och straffrabatten för unga förövare ska avskaffas."
+      },
+      {
+        "topic": "Tvångsmedel kontra Integritet",
+        "prompt": "Bör polisen ges utökade befogenheter som preventiv hemlig avlyssning, visitationszoner och anonyma vittnen, eller inskränker sådana åtgärder rättssäkerheten och den personliga integriteten för mycket?",
+        "stance": "Polisen måste ha de mest effektiva verktygen: preventiva tvångsmedel, visitationszoner och anonyma vittnen är nödvändiga för att knäcka gängen."
+      },
+      {
+        "topic": "Narkotikapolitik & Avkriminalisering",
+        "prompt": "Bör narkotikapolitiken bibehålla en strikt nollvision med straff och förbud även mot eget bruk, eller bör eget bruk avkriminaliseras till förmån för skademinimering och vårdinsatser?",
+        "stance": "En restriktiv narkotikapolitik och ett tydligt förbud mot eget bruk ska ligga fast. Narkotikahandeln är gängens främsta inkomstkälla."
+      },
+      {
+        "topic": "Utvisning vid brott",
+        "prompt": "Bör utländska medborgare som döms för allvarliga brott i princip alltid utvisas på livstid oavsett anknytning till Sverige, eller ska individuella hänsyn till familjeband och skyddsbehov väga tyngre?",
+        "stance": "Huvudregeln ska vara att icke-svenska medborgare som begår allvarliga brott alltid ska utvisas på livstid."
+      }
+    ]
+  }
+}

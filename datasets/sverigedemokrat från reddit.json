@@ -1,0 +1,128 @@
+{
+  "party_info": {
+    "name": "Sverigedemokraterna från reddit",
+    "short_name": "SD",
+    "color": "#DDDD00",
+    "description": "Ett socialkonservativt parti med nationalistisk grundsyn som fokuserar starkt på stram migrationspolitik, skärpta straff och traditionella värderingar."
+  },
+  "pillars": {
+    "Economy": [
+      {
+        "topic": "Vinster i välfärden & Friskolor",
+        "prompt": "Bör vinstdrivande företag och riskkapitalister tillåtas dela ut vinst från skattefinansierad skola, vård och omsorg?",
+        "stance": "Ja men enbart i kombination hårdare kvalitetskrav, ökad statlig tillsyn och ekonomiska buffertkrav för att säkerställa att skattemedel inte tas ut som vinst om det finns brister i verksamheten."
+      },
+      {
+        "topic": "Skatt på arbete kontra kapital",
+        "prompt": "Bör skattetrycket flyttas från lönearbete till kapital, förmögenhet och fastigheter, eller bör skatter sänkas generellt?",
+        "stance": "Skatter bör sänkas generellt, men med särskilt fokus på hushållen, löntagare och pensionärer."
+      },
+      {
+        "topic": "Arbetslinjen vs Bidragstak",
+        "prompt": "Bör ersättningsnivåer och bidrag begränsas med ett strikt bidragstak för att öka incitamenten att arbeta, eller bör grundtryggheten och ersättningarna stärkas?",
+        "stance": "Strikt bidragstak och skärpta kvalificeringskrav för att det alltid ska löna sig bättre att arbeta än att leva på bidrag. Men bidrag ska såklart fortfarande finnas kvar, för dem som verkligen behöver det, men då i första hand svenska medborgare."
+      },
+      {
+        "topic": "Arbetsrätt & LAS",
+        "prompt": "Bör arbetsrätten och turordningsreglerna (LAS) moderniseras och bli mer flexibla för arbetsgivare, eller ska anställningstryggheten och fackliga rättigheter värnas/stärkas?",
+        "stance": "Det bör moderniseras/göras utantag för nyföretag och mindre företag. Men för större så bör fackliga rättigheter och grundläggande anställningstrygghet värnas."
+      },
+      {
+        "topic": "Arbetstidsförkortning",
+        "prompt": "Bör Sverige införa lagstadgad förkortad arbetstid (t.ex. 6 timmars arbetsdag med bibehållen lön), eller bör den standardiserade 40-timmarsveckan behållas?",
+        "stance": "Här är hag emot pariets rikningen även om jag förstår varför dem vill behålla 40-timmarsveckan. Själv tror jag på att inte enkelt bara säga att set påverkar Sverige Konkurenskraft, utan jag skulle vilja se mer forskning och tester i olika arbetsområden och vad det har för kortsikitg och långsiktig effekt på svenskars välmående."
+      },
+      {
+        "topic": "Bostadsmarknad & Marknadshyror",
+        "prompt": "Bör friare hyressättning/marknadshyror tillåtas vid nyproduktion för att stimulera byggande, eller ska det kollektiva förhandlingssystemet och hyresregleringen bevaras?",
+        "stance": "Nej till marknadshyror och fri hyressättning, både befintliga bostäder och vid nyproduktion. Bevara det kollektiva förhandlingssystemet och bruksvärdessystemet för att värna hyresgästernas ekonomiska trygghet och motverka kraftiga hyreshöjningar."
+      }
+    ],
+    "Climate": [
+      {
+        "topic": "Energimix & Kärnkraft",
+        "prompt": "Bör staten aktivt underlätta och finansiera en storskalig utbyggnad av ny kärnkraft, eller bör fokus ligga helt på förnybar energi (vind, sol, bioenergi)?",
+        "stance": "Ja det border underlättas då enligt mig kärnkraft är en av få vädligt miljövänliga alternativ vi har som samtidigt generar mycket energi. Enligt mig har våran vattenkraft skapar enormat miljöproblem i norra dela av sverige."
+      },
+      {
+        "topic": "Bränsleskatter & Reduktionsplikt",
+        "prompt": "Bör drivmedelsskatter och reduktionsplikten hållas på ett absolut minimum för att sänka pump-priserna, eller användas som ett aktivt klimatpolitiskt styrmedel?",
+        "stance": "Ja, Sverige är unikt i dess geografi. Folk är beroende av färdmedel idag som fortfarande går på fossila bränslen. Men även om just detta inte används som klimatpolitikiskt styrmedel så borde vi leta efter andra väga för att driva det frammåt. Vi vill ju till en framtiden utan fossila bränslen, skillnaden ligger i hur fort vi rör oss ditt kopplat till det effekter som skapas i nuet pga av det."
+      },
+      {
+        "topic": "Skogsbruk & Äganderätt",
+        "prompt": "Bör skogsägarnas äganderätt och det aktiva produktionsskogsbruket försvaras, eller ska mer skog och biologisk mångfald skyddas med restriktioner mot kalhyggen?",
+        "stance": "Ja den bör försvaras, annars riskeras hela denna industri. Dock bör miljövänligt skogsbruk förespårkas och ges konpensation till för att utföra. Exempelvis att skog ibland behövs medvetet brännas för att värna om mångfald och mindre risk för framtiden skogsbrand. Detta pria bör betalas av alla svenskar då det blir en svensk fråga. Vill vi värna om mångfald i våran natur i Sverige eller inte. Det är inte bara skogsägarnas ansvar."
+      },
+      {
+        "topic": "Klimatmål & EU-harmonisering",
+        "prompt": "Bör Sveriges nationella klimatmål anpassas efter EU:s minimikrav för att inte skada svensk konkurrenskraft, eller ska Sverige behålla skarpare nationella mål och vara ett föregångsland?",
+        "stance": "Det bör sänkas till EUs minikrav. Sverige är så gått som fossilfritt när det kommer till energitillverkning. Våra priser för EL är redan höga pga av att vi är med i EU. Så vi i Sverige betalar redan en högre pris. Det bör inte ökas ytterligare."
+      },
+      {
+        "topic": "Statliga klimatinvesteringar & Industristöd",
+        "prompt": "Bör staten ta en aktiv finansiell ledarroll i industrins gröna omställning (kreditgarantier, grönt stål), eller ska marknaden och teknikneutralitet styra?",
+        "stance": "Staten ska INTE ta en aktiv ledarroll i detta då vi har så mycket bevis på hur illa det kan gå. Vissa skulle säga att man tar stora risker och att det är värt, men det jag har sett är att man inte längre tar risker utan att man istället bara trycker pengar till grön omställning för att det ser bra ut på pappret, som något sort PR stunt."
+      },
+      {
+        "topic": "Konsumtion & Livsstilsregleringar",
+        "prompt": "Bör staten använda skatter och förbud för att minska ohållbar konsumtion (t.ex. flygskatt, köttkonsumtion), eller ska klimatomställningen uteslutande bygga på teknisk utveckling?",
+        "stance": "Nej det ska bygga på teknisk utveckling och effektiv produktion. Kanske även belöna teknsik frågagång kring detta mera."
+      }
+    ],
+    "Immigration": [
+      {
+        "topic": "Asylvolymer & Asylrätt",
+        "prompt": "Bör asylinvandringen till Sverige minimeras/pausas till förmån för hjälp i närområdet, eller ska den individuella asylrätten och generösa kvotflyktingmottagandet försvaras?",
+        "stance": "Minimeras till EUs minigräns. Sverige har redan tagit massor, det kanske finns en plikt i att hjälpa dem man tagit in också?"
+      },
+      {
+        "topic": "Krav för Medborgarskap & Uppehållstillstånd",
+        "prompt": "Bör kraven för uppehållstillstånd och medborgarskap skärpas (språkprov, egenförsörjning, vandel, tidsbegränsade tillstånd som norm), eller ska permanenta tillstånd och humanitära skyddsgrunder underlättas?",
+        "stance": "Ja kraven bör skärpas. Vill man skapa ett liv i sverige så får man göra det inom våra regler, och då bör våran kultur värnas om."
+      },
+      {
+        "topic": "Återvandring & Utvisningar",
+        "prompt": "Bör staten satsa på storskaliga återvandringsprogram och obligatoriskt verkställda utvisningar av personer utan skyddsbehov, eller erbjuda amnesti/stoppade utvisningar för rotade individer?",
+        "stance": "Jag tycker det finns nog med bevis som visar på att Svegie tagit in för mycket folk under för kort tid och utan tillräckliga krav. För att kunna lyckas ta hand om dem som uppfyller kraven och vill stanns samt våra svagaste i samhället (pensionärer och sjuka) så bör man lätta på trycket."
+      },
+      {
+        "topic": "Arbetskraftsinvandring & Lönegolv",
+        "prompt": "Bör arbetskraftsinvandring begränsas med höga lönegolv för att skydda svenska kollektivavtal från lönedumpning, eller vara öppen och marknadsstyrd för att hjälpa företag att rekrytera kompetens?",
+        "stance": "Jag vill se en kraftigt begränsad arbetskraftsinvandringen och förespråkar ett högt lönegolv för att skydda svenska arbetstagare mot lönedumpning och utnyttjande. Det handlar också om att minska uttjande av invandarare."
+      },
+      {
+        "topic": "Informationsplikt ('Angiverilag')",
+        "prompt": "Bör offentliganställda (t.ex. inom skola och vård) vara skyldiga att informera Polisen/Migrationsverket om personer som vistas i landet utan tillstånd?",
+        "stance": "Jag är lite kluven i denna fråga men generellt tror jag det är fördelaktigt. Vistas man i landet utan tillstånd så begår man ett brott, och brott bör anmälas."
+      }
+    ],
+    "Law And Order": [
+      {
+        "topic": "Straffsatser & Inkapacitering vs Vård",
+        "prompt": "Bör straffen för grov brottslighet skärpas kraftigt med fokus på ren inlåsning/inkapacitering, eller bör Kriminalvårdens tyngdpunkt ligga på rehabilitering och återfallsförebyggande insatser?",
+        "stance": "Jag vill straffen kraftigt skärps med fokus på ren inlåsning och inkapacitering av farliga brottslingar för att skydda samhället, detta då vi börjat se sådan tung brottslighet. Jag tycker att brottsoffrets upprättelse och allmänprevention ska gå före rehabilitering, även om jag själklart är för rehabilitering i den utsträckning där det bedöms fungera."
+      },
+      {
+        "topic": "Ungdomsbrottslighet & Straffmyndighetsålder",
+        "prompt": "Bör straffmyndighetsåldern sänkas och grovt kriminella unga låsas in i ungdomsfängelser, eller ska socialtjänsten och tidiga preventiva insatser i skola/familj ha huvudansvaret?",
+        "stance": "Just i nuläget så krävas att straffmyndighetsåldern sänks då gängen har börjat utnyttja yngre av den anledningen att dem inte straffas lika hårt. Så jag ser detta som ett sätt att stopa vidare rekrytering av yngre. Men jag i en framtida värld utan den gängkriminalitet som är i Sverige idag så tycker jag inte straffmyndighetsåldern ska hållas sänkt, utan justeras tillbaka igen."
+      },
+      {
+        "topic": "Tvångsmedel kontra Integritet",
+        "prompt": "Bör polisen ges utökade befogenheter som preventiv hemlig avlyssning, visitationszoner och anonyma vittnen, eller inskränker sådana åtgärder rättssäkerheten och den personliga integriteten för mycket?",
+        "stance": "Jag tycker drtt inskränker i våra peronliga integritet men jag tror fortfarande det krävs för att bekämpa den nuvarande starka bortsligheten. Så det ska vara tempoärata utökande befogenheter så det är extremt viktigt tas bort när det inte längre döms nödvändigt längre."
+      },
+      {
+        "topic": "Narkotikapolitik & Avkriminalisering",
+        "prompt": "Bör narkotikapolitiken bibehålla en strikt nollvision med straff och förbud även mot eget bruk, eller bör eget bruk avkriminaliseras till förmån för skademinimering och vårdinsatser?",
+        "stance": "Eget bruk avkriminaliseras till förmån för skademinimering och vårdinsatser. Det är larvigt hur alla sveriges partier är så emot detta... Låt individer ta sinna egna beslut. Alkohol är det redan bevisat påverkar individer värre än cannabis."
+      },
+      {
+        "topic": "Utvisning vid brott",
+        "prompt": "Bör utländska medborgare som döms för allvarliga brott i princip alltid utvisas på livstid oavsett anknytning till Sverige, eller ska individuella hänsyn till familjeband och skyddsbehov väga tyngre?",
+        "stance": "Ja, om du begår ett allvarligt brott även fast du har en familj, så är det den personens problem. Sverige ska inte tillåta kriminella pga av familjeband, då detta men säkerhet endå kommer utnyttjas..."
+      }
+    ]
+  }
+}

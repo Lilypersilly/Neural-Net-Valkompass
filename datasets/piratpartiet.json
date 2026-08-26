@@ -1,0 +1,143 @@
+{
+  "party_info": {
+    "name": "Piratpartiet",
+    "short_name": "PP",
+    "color": "#333333",
+    "description": "Ett parti som kämpar för civilkurage, stärkta fri- och rättigheter på nätet, upphovsrättsreform, avskaffande av massövervakning och skydd för den personliga integriteten."
+  },
+  "pillars": {
+    "Economy": [
+      {
+        "topic": "Vinster i välfärden & Friskolor",
+        "prompt": "Bör vinstdrivande företag och riskkapitalister tillåtas dela ut vinst från skattefinansierad skola, vård och omsorg?",
+        "stance": "Vår fokus ligger primärt på digital frihet och integritet, men vi värnar om en öppen, decentraliserad ekonomi och motverkar monopolbildning och onödig byråkrati."
+      },
+      {
+        "topic": "Skatt på arbete kontra kapital",
+        "prompt": "Bör skattetrycket flyttas från lönearbete till kapital, förmögenhet och fastigheter, eller bör skatter sänkas generellt?",
+        "stance": "Skattesystemet bör vara enkelt, transparent och uppmuntra till innovation samt småskaligt företagande inom tech och kultur."
+      },
+      {
+        "topic": "Arbetslinjen vs Bidragstak",
+        "prompt": "Bör ersättningsnivåer och bidrag begränsas med ett strikt bidragstak för att öka incitamenten att arbeta, eller bör grundtryggheten och ersättningarna stärkas?",
+        "stance": "Vi förespråkar en ovillkorlig grundinkomst (medborgarlön) på sikt för att garantera ekonomisk trygghet och frihet för alla medborgare i ett automatiserat samhälle."
+      },
+      {
+        "topic": "Arbetsrätt & LAS",
+        "prompt": "Bör arbetsrätten och turordningsreglerna (LAS) moderniseras och bli mer flexibla för arbetsgivare, eller ska anställningstryggheten och fackliga rättigheter värnas/stärkas?",
+        "stance": "Stabila och trygga arbetsvillkor är viktiga, men regelverken måste anpassas till den moderna digitala arbetsmarknaden och distansarbete."
+      },
+      {
+        "topic": "Arbetstidsförkortning",
+        "prompt": "Bör Sverige införa lagstadgad förkortad arbetstid (t.ex. 6 timmars arbetsdag med bibehållen lön), eller bör den standardiserade 40-timmarsveckan behållas?",
+        "stance": "Ja, vi är positiva till kortare arbetstid till följd av ökad automatisktion och effektivisering i samhället, vilket ger mer fri tid för individen."
+      },
+      {
+        "topic": "Bostadsmarknad & Marknadshyror",
+        "prompt": "Bör friare hyressättning/marknadshyror tillåtas vid nyproduktion för att stimulera byggande, eller ska det kollektiva förhandlingssystemet och hyresregleringen bevaras?",
+        "stance": "Bostadsmarknaden lider av stelbent byråkrati; vi verkar för ökad rörlighet och enklare regler för byggande och boende."
+      },
+      {
+        "topic": "Statligt ägande & Privatisering",
+        "prompt": "Bör staten avyttra/privatisera bolag på konkurrensutsatta marknader, eller bör statens ägande och kontroll över samhällskritisk infrastruktur öka?",
+        "stance": "Samhällskritisk infrastruktur, särskilt öppen digital infrastruktur och datanät, bör skyddas från privat monopolisering och överdriven kommersialisering."
+      },
+      {
+        "topic": "Valuta & Euron",
+        "prompt": "Bör Sverige utreda eller aktivt arbeta för att överge den svenska kronan och ansluta sig till Euron (€)?",
+        "stance": "Valutafrågor är sekundära i förhållande till våra kärnfrågor om digital frihet och mänskliga rättigheter, men insyn och decentraliserade ekonomiska system är centrala."
+      },
+      {
+        "topic": "RUT- & ROT-avdrag",
+        "prompt": "Bör skattereduktioner för hushållsnära tjänster (RUT/ROT) bevaras/utökas, eller avvecklas/trappas ned?",
+        "stance": "Vi har ingen specifik central sakpolitik mot RUT/ROT, utan fokuserar på att reformera skatter så att de gynnar digital innovation och frihet."
+      }
+    ],
+    "Climate": [
+      {
+        "topic": "Energimix & Kärnkraft",
+        "prompt": "Bör staten aktivt underlätta och finansiera en storskalig utbyggnad av ny kärnkraft, eller bör fokus ligga helt på förnybar energi (vind, sol, bioenergi)?",
+        "stance": "Vi stödjer en faktabaserad energipolitik där teknikneutralitet och hållbarhet prioriteras för att säkerställa en stabil elförsörjning åt ett digitaliserat samhälle."
+      },
+      {
+        "topic": "Bränsleskatter & Reduktionsplikt",
+        "prompt": "Bör drivmedelsskatter och reduktionsplikten hållas på ett absolut minimum för att sänka pump-priserna, eller användas som ett aktivt klimatpolitiskt styrmedel?",
+        "stance": "Klimatpolitiken måste vara effektiv och långsiktig utan att slå undan benen för landsbygden eller digital infrastruktur."
+      },
+      {
+        "topic": "Skogsbruk & Äganderätt",
+        "prompt": "Bör skogsägarnas äganderätt och det aktiva produktionsskogsbruket försvaras, eller ska mer skog och biologisk mångfald skyddas med restriktioner mot kalhyggen?",
+        "stance": "Individens äganderätt och starkt skydd för privat egendom är grundläggande principer som måste balanseras med miljöhänsyn."
+      },
+      {
+        "topic": "Klimatmål & EU-harmonisering",
+        "prompt": "Bör Sveriges nationella klimatmål anpassas efter EU:s minimikrav för att inte skada svensk konkurrenskraft, eller ska Sverige behålla skarpare nationella mål och vara ett föregångsland?",
+        "stance": "Internationellt samarbete är avgörande för miljö- och klimatfrågor, där öppna gränser och gemensamma databaser för forskning kan underlätta omställningen."
+      },
+      {
+        "topic": "Statliga klimatinvesteringar & Industristöd",
+        "prompt": "Bör staten ta en aktiv finansiell ledarroll i industrins gröna omställning (kreditgarantier, grönt stål), eller ska marknaden och teknikneutralitet styra?",
+        "stance": "Staten bör främst stötta forskning och grön teknikutveckling snarare än att subventionera enskilda industribolag."
+      },
+      {
+        "topic": "Konsumtion & Livsstilsregleringar",
+        "prompt": "Bör staten använda skatter och förbud för att minska ohållbar konsumtion (t.ex. flygskatt, köttkonsumtion), eller ska klimatomställningen uteslutande bygga på teknisk utveckling?",
+        "stance": "Vi motsätter oss generellt statliga pekpinnar och integritetskränkande livsstilsregleringar till förmån för informationsfrihet och teknisk innovation."
+      }
+    ],
+    "Immigration": [
+      {
+        "topic": "Asylvolymer & Asylrätt",
+        "prompt": "Bör asylinvandringen till Sverige minimeras/pausas till förmån för hjälp i närområdet, eller ska den individuella asylrätten och generösa kvotflyktingmottagandet försvaras?",
+        "stance": "Piratpartiet står upp för humanism, den individuella asylrätten och fri rörlighet för människor över gränserna."
+      },
+      {
+        "topic": "Krav för Medborgarskap & Uppehållstillstånd",
+        "prompt": "Bör kraven för uppehållstillstånd och medborgarskap skärpas (språkprov, egenförsörjning, vandel, tidsbegränsade tillstånd som norm), eller ska permanenta tillstånd och humanitära skyddsgrunder underlättas?",
+        "stance": "Människor som flyr undan förtryck ska mötas av ett öppet och rättssäkert samhälle med tydliga, humana processer utan godtycke."
+      },
+      {
+        "topic": "Återvandring & Utvisningar",
+        "prompt": "Bör staten satsa på storskaliga återvandringsprogram och obligatoriskt verkställda utvisningar av personer utan skyddsbehov, eller erbjuda amnesti/stoppade utvisningar för rotade individer?",
+        "stance": "Migrationspolitiken måste präglas av rättssäkerhet och respekt för mänskliga rättigheter, inte repressiva tvångsåtgärder."
+      },
+      {
+        "topic": "Arbetskraftsinvandring & Lönegolv",
+        "prompt": "Bör arbetskraftsinvandring begränsas med höga lönegolv för att skydda svenska kollektivavtal från lönedumpning, eller vara öppen och marknadsstyrd för att hjälpa företag att rekrytera kompetens?",
+        "stance": "En öppen arbetsmarknad för kvalificerad kompetens är viktig för IT- och techsektorn, där gränsöverskridande talang utbyter idéer fritt."
+      },
+      {
+        "topic": "Informationsplikt ('Angiverilag')",
+        "prompt": "Bör offentliganställda (t.ex. inom skola och vård) vara skyldiga att informera Polisen/Migrationsverket om personer som vistas i landet utan tillstånd?",
+        "stance": "Nej! Vi motsätter oss absolut all form av angiverilagar och övervakning som tvingar vårdpersonal eller lärare att agera angivare åt staten."
+      }
+    ],
+    "Law And Order": [
+      {
+        "topic": "Straffsatser & Inkapacitering vs Vård",
+        "prompt": "Bör straffen för grov brottslighet skärpas kraftigt med fokus på ren inlåsning/inkapacitering, eller bör Kriminalvårdens tyngdpunkt ligga på rehabilitering och återfallsförebyggande insatser?",
+        "stance": "Rättsväsendet ska fokusera på brottsoffer, hög upptäcktsrisk och rehabilitering framför populistiska straffskärpningar som inte minskar brottsligheten."
+      },
+      {
+        "topic": "Ungdomsbrottslighet & Straffmyndighetsålder",
+        "prompt": "Bör straffmyndighetsåldern sänkas och grovt kriminella unga låsas in i ungdomsfängelser, eller ska socialtjänsten och tidiga preventiva insatser i skola/familj ha huvudansvaret?",
+        "stance": "Fokus måste ligga på sociala förebyggande insatser och tidigt stöd snarare än att sänka straffmyndighetsåldern."
+      },
+      {
+        "topic": "Tvångsmedel kontra Integritet",
+        "prompt": "Bör polisen ges utökade befogenheter som preventiv hemlig avlyssning, visitationszoner och anonyma vittnen, eller inskränker sådana åtgärder rättssäkerheten och den personliga integriteten för mycket?",
+        "stance": "Ett absolut NEJ till massövervakning, hemlig dataavläsning, visitationszoner och chattkontroll. Den personliga integriteten och rättssäkerheten är okränkbar."
+      },
+      {
+        "topic": "Narkotikapolitik & Avkriminalisering",
+        "prompt": "Bör narkotikapolitiken bibehålla en strikt nollvision med straff och förbud även mot eget bruk, eller bör eget bruk avkriminaliseras till förmån för skademinimering och vårdinsatser?",
+        "stance": "Ja till avkriminalisering av eget bruk. Narkotikapolitiken måste bygga på vetenskap, skademinimering och vård i stället för meningslös bestraffning."
+      },
+      {
+        "topic": "Utvisning vid brott",
+        "prompt": "Bör utländska medborgare som döms för allvarliga brott i princip alltid utvisas på livstid oavsett anknytning till Sverige, eller ska individuella hänsyn till familjeband och skyddsbehov väga tyngre?",
+        "stance": "Rättssäkerhet och individuella prövningar i domstol måste alltid gälla, där proportionerliga bedömningar görs i varje enskilt fall."
+      }
+    ]
+  }
+}

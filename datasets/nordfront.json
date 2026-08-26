@@ -1,0 +1,143 @@
+{
+  "party_info": {
+    "name": "Nordfront",
+    "short_name": "NMR",
+    "color": "#2C4A27",
+    "description": "Ett uttalat nationalsocialistiskt och pan-nordiskt organ/rörelsetillägg (Nordiska motståndsrörelsen) som verkar för att störta den parlamentariska demokratin och upprätta en nordisk republik baserad på biologisk rasism."
+  },
+  "pillars": {
+    "Economy": [
+      {
+        "topic": "Vinster i välfärden & Friskolor",
+        "prompt": "Bör vinstdrivande företag och riskkapitalister tillåtas dela ut vinst från skattefinansierad skola, vård och omsorg?",
+        "stance": "Välfärden ska vara statlig och helt befriad från kapitalistiska vintintressen och privat spekulation; samhällsviktiga verksamheter ska tjäna det egna folket."
+      },
+      {
+        "topic": "Skatt på arbete kontra kapital",
+        "prompt": "Bör skattetrycket flyttas från lönearbete till kapital, förmögenhet och fastigheter, eller bör skatter sänkas generellt?",
+        "stance": "En nationalsocialistisk stat prioriterar folkets gemensamma ekonomiska trygghet framför den internationella finanseliten och kapitalstarka särintressen."
+      },
+      {
+        "topic": "Arbetslinjen vs Bidragstak",
+        "prompt": "Bör ersättningsnivåer och bidrag begränsas med ett strikt bidragstak för att öka incitamenten att arbeta, eller bör grundtryggheten och ersättningarna stärkas?",
+        "stance": "Arbetsplikten och rätten till ett vettigt arbete för etniska medborgare ska vara central, samtidigt som ekonomiska resurser inte ska gå till utomnordiska migranter."
+      },
+      {
+        "topic": "Arbetsrätt & LAS",
+        "prompt": "Bör arbetsrätten och turordningsreglerna (LAS) moderniseras och bli mer flexibla för arbetsgivare, eller ska anställningstryggheten och fackliga rättigheter värnas/stärkas?",
+        "stance": "Arbetsmarknaden ska organiseras utifrån folkets intressen snarare än kapitalets eller globala marknadskrafters villkor."
+      },
+      {
+        "topic": "Arbetstidsförkortning",
+        "prompt": "Bör Sverige införa lagstadgad förkortad arbetstid (t.ex. 6 timmars arbetsdag med bibehållen lön), eller bör den standardiserade 40-timmarsveckan behållas?",
+        "stance": "Arbetsvillkoren ska utformas så att den biologiska familjen och folkhälsan prioriteras."
+      },
+      {
+        "topic": "Bostadsmarknad & Marknadshyror",
+        "prompt": "Bör friare hyressättning/marknadshyror tillåtas vid nyproduktion för att stimulera byggande, eller ska det kollektiva förhandlingssystemet och hyresregleringen bevaras?",
+        "stance": "Bostaden är en social rättighet för landets medborgare och ska inte utsättas för marknadsekonomisk hyreshets eller spekulation."
+      },
+      {
+        "topic": "Statligt ägande & Privatisering",
+        "prompt": "Bör staten avyttra/privatisera bolag på konkurrensutsatta marknader, eller bör statens ägande och kontroll över samhällskritisk infrastruktur öka?",
+        "stance": "All samhällskritisk infrastruktur, bankväsende och basnäringar ska vara hårt statligt kontrollerade och undandragna privat eller utländskt ägande."
+      },
+      {
+        "topic": "Valuta & Euron",
+        "prompt": "Bör Sverige utreda eller aktivt arbeta för att överge den svenska kronan och ansluta sig till Euron (€)?{",
+        "stance": "Ett absolut nej till euron och internationella valutasystem som binder nationen till globalistiska ekonomiska institutioner."
+      },
+      {
+        "topic": "RUT- & ROT-avdrag",
+        "prompt": "Bör skattereduktioner för hushållsnära tjänster (RUT/ROT) bevaras/utökas, eller avvecklas/trappas ned?",
+        "stance": "Skattesystemet ska gynna den egna befolkningen och uppmuntra till ett självförsörjande samhälle fritt från subventioner till lågprisservice."
+      }
+    ],
+    "Climate": [
+      {
+        "topic": "Energimix & Kärnkraft",
+        "prompt": "Bör staten aktivt underlätta och finansiera en storskalig utbyggnad av ny kärnkraft, eller bör fokus ligga helt på förnybar energi (vind, sol, bioenergi)?",
+        "stance": "Norden ska vara självförsörjande på energi genom en stabil mix där kärnkraft och inhemska naturresurser tas till vara utan hänsyn till överstatliga miljökrav."
+      },
+      {
+        "topic": "Bränsleskatter & Reduktionsplikt",
+        "prompt": "Bör drivmedelsskatter och reduktionsplikten hållas på ett absolut minimum för att sänka pump-priserna, eller användas som ett aktivt klimatpolitiskt styrmedel?",
+        "stance": "Klimatskatter och pålagor som slår sönder landsortens och folkets ekonomi ska avskaffas omedelbart."
+      },
+      {
+        "topic": "Skogsbruk & Äganderätt",
+        "prompt": "Bör skogsägarnas äganderätt och det aktiva produktionsskogsbruket försvaras, eller ska mer skog och biologisk mångfald skyddas med restriktioner mot kalhyggen?",
+        "stance": "De nordiska naturresurserna tillhör i första hand det nordiska folket och ska brukas långsiktigt och ekologiskt hållbart utan styrning från EU."
+      },
+      {
+        "topic": "Klimatmål & EU-harmonisering",
+        "prompt": "Bör Sveriges nationella klimatmål anpassas efter EU:s minimikrav för att inte skada svensk konkurrenskraft, eller ska Sverige behålla skarpare nationella mål och vara ett föregångsland?",
+        "stance": "Sverige och Norden ska omedelbart lämna EU och avvisa all överstatlig miljöbyråkrati."
+      },
+      {
+        "topic": "Statliga klimatinvesteringar & Industristöd",
+        "prompt": "Bör staten ta en aktiv finansiell ledarroll i industrins gröna omställning (kreditgarantier, grönt stål), eller ska marknaden och teknikneutralitet styra?",
+        "stance": "Globalistiska klimatpolitiska subventioner och ideologiska industriprojekt ska stoppas till förmån för nationell självförsörjning."
+      },
+      {
+        "topic": "Konsumtion & Livsstilsregleringar",
+        "prompt": "Bör staten använda skatter och förbud för att minska ohållbar konsumtion (t.ex. flygskatt, köttkonsumtion), eller ska klimatomställningen uteslutande bygga på teknisk utveckling?",
+        "stance": "Vi avvisar dekadent konsumtionskultur såväl som godtyckliga globalistiska livsstilsdirektiv."
+      }
+    ],
+    "Immigration": [
+      {
+        "topic": "Asylvolymer & Asylrätt",
+        "prompt": "Bör asylinvandringen till Sverige minimeras/pausas till förmån för hjälp i närområdet, eller ska den individuella asylrätten och generösa kvotflyktingmottagandet försvaras?",
+        "stance": "All form av asylinvandring stoppas permanent och omedelbart."
+      },
+      {
+        "topic": "Krav för Medborgarskap & Uppehållstillstånd",
+        "prompt": "Bör kraven för uppehållstillstånd och medborgarskap skärpas (språkprov, egenförsörjning, vandel, tidsbegränsade tillstånd som norm), eller ska permanenta tillstånd och humanitära skyddsgrunder underlättas?",
+        "stance": "Medborgarskap ska enbart vila på biologisk och etnisk tillhörighet till det nordiska folket; medborgarskap som delats ut till utomnordiska personer ska dras in."
+      },
+      {
+        "topic": "Återvandring & Utvisningar",
+        "prompt": "Bör staten satsa på storskaliga återvandringsprogram och obligatoriskt verkställda utvisningar av personer utan skyddsbehov, eller erbjuda amnesti/stoppade utvisningar för rotade individer?",
+        "stance": "Ett absolut krav på att merparten av alla utomnordiska invånare ska deporteras och återvandra till sina ursprungsområden."
+      },
+      {
+        "topic": "Arbetskraftsinvandring & Lönegolv",
+        "prompt": "Bör arbetskraftsinvandring begränsas med höga lönegolv för att skydda svenska kollektivavtal från lönedumpning, eller vara öppen och marknadsstyrd för att hjälpa företag att rekrytera kompetens?",
+        "stance": "Arbetskraftsinvandring från länder utanför Norden ska vara helt utesluten."
+      },
+      {
+        "topic": "Informationsplikt ('Angiverilag')",
+        "prompt": "Bör offentliganställda (t.ex. inom skola och vård) vara skyldiga att informera Polisen/Migrationsverket om personer som vistas i landet utan tillstånd?",
+        "stance": "Personer som vistas olagligt i landet ska omedelbart avlägsnas med tvång, och alla statliga institutioner ska verka för detta."
+      }
+    ],
+    "Law And Order": [
+      {
+        "topic": "Straffsatser & Inkapacitering vs Vård",
+        "prompt": "Bör straffen för grov brottslighet skärpas kraftigt med fokus på ren inlåsning/inkapacitering, eller bör Kriminalvårdens tyngdpunkt ligga på rehabilitering och återfallsförebyggande insatser?",
+        "stance": "Drastiskt skärpta straff, inklusive straffarbete och dödsstraff för grova brott som landsförräderi, mord och terroristbrott mot folket."
+      },
+      {
+        "topic": "Ungdomsbrottslighet & Straffmyndighetsålder",
+        "prompt": "Bör straffmyndighetsåldern sänkas och grovt kriminella unga låsas in i ungdomsfängelser, eller ska socialtjänsten och tidiga preventiva insatser i skola/familj ha huvudansvaret?",
+        "stance": "Fullt ansvar och hårda konsekvenser ska gälla för lagbrott; samhällsordningen ska upprätthållas med kompromisslös auktoritet."
+      },
+      {
+        "topic": "Tvångsmedel kontra Integritet",
+        "prompt": "Bör polisen ges utökade befogenheter som preventiv hemlig avlyssning, visitationszoner och anonyma vittnen, eller inskränker sådana åtgärder rättssäkerheten och den personliga integriteten för mycket?",
+        "stance": "En revolutionär kamp mot systemet innebär att den nuvarande korrupta statsapparatens metoder avvisas, till förmån för en stark, nationalsocialistisk ordningsmakt."
+      },
+      {
+        "topic": "Narkotikapolitik & Avkriminalisering",
+        "prompt": "Bör narkotikapolitiken bibehålla en strikt nollvision med straff och förbud även mot eget bruk, eller bör eget bruk avkriminaliseras till förmån för skademinimering och vårdinsatser?",
+        "stance": "En kompromisslös nollvision mot narkotika, då droger förstör folkstockens hälsa och biologiska vitalitet."
+      },
+      {
+        "topic": "Utvisning vid brott",
+        "prompt": "Bör utländska medborgare som döms för allvarliga brott i princip alltid utvisas på livstid oavsett anknytning till Sverige, eller ska individuella hänsyn till familjeband och skyddsbehov väga tyngre?",
+        "stance": "Alla icke-etniska nordbor som begår brott eller missköter sig ska omedelbart utvisas på livstid utan några formella hinder."
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+====================================================================
+PROJECT POLCOMP: NEURAL NET PIPELINE MASTER TO-DO LIST
+====================================================================
+
+PHASE 1: CLEANUP & RESTRUCTURE (IMMEDIATE)
+[ ] 1. Purge the `exempel/` folder.
+       - Delete the Harry Potter copy-pastes and any other non-political test files.
+       - Ensure only valid political essay JSONs (like `min_babeh.json`) remain.
+[ ] 2. Update Neural Engine to Prompt-Level Matching.
+       - Open `neural_net.py`.
+       - Modify `load_party_datasets()` to extract both `"prompt"` and `"stance"` into a combined string instead of discarding the prompt.
+
+PHASE 2: PERFECT THE SBERT RETRIEVER (MODEL 1)
+[ ] 3. Scale up the Training Dataset.
+       - Open `sbert_training_pairs.json`.
+       - Expand the dataset from 101 pairs to ~300-500 pairs.
+       - Strategy: Create positive pairs (1) by linking similar stances/prompts within the same topic, and negative pairs (0) by crossing different topics.
+[ ] 4. Retrain the SBERT Model.
+       - Run `training.py` with the expanded dataset.
+       - Verify it saves to `models/fine_tuned_sbert`.
+[ ] 5. Recalibrate the Relevance Threshold.
+       - Run `mathtest.py` (or a statistically rigorous validation version) against the new model weights.
+       - Note the new optimal cutoff score.
+[ ] 6. Update Application Variables.
+       - In `neural_net.py`, verify `SBERT_MODEL_NAME = "models/fine_tuned_sbert"`.
+       - Update the `RELEVANCE_CUTOFF` global variable to the new score from step 5.
+
+PHASE 3: TAME THE LOGIC ENGINE (MODEL 2)
+[ ] 7. Implement the "Quick Fix" for the NLI Engine.
+       - In `neural_net.py`, add a Regex cleaner right before the NLI tokenization step.
+       - Strip leading discourse markers (e.g., "Nej.", "Ja.", "Jo,") from party stances so the NLI doesn't misinterpret them as contradictions.
+[ ] 8. Build the CLI Labeling Tool (Optional/Next Step).
+       - Write a small Python script to quickly log tricky inferences.
+       - Prompts: "Sentence 1", "Party Stance", and "Label (E/N/C)".
+       - Save inputs to a local `.jsonl` file to build a future dataset.
