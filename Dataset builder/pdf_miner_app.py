@@ -22,7 +22,7 @@ def load_questions_from_json(json_path):
                 })
         return fragor
     except Exception as e:
-        print(f"❌ Kunde inte ladda frågor från {json_path}: {e}")
+        print(f"Kunde inte ladda frågor från {json_path}: {e}")
         return []
 
 # --- 3. HJÄLPFUNKTIONER ---
@@ -74,7 +74,7 @@ def save_to_json_dataset(party_name, topic, prompt, stance):
 # --- 4. HUVUDPROGRAM ---
 def main():
     print("\n" + "="*50)
-    print(" 🏛️  AUTOPILOT DOCX-MINER (Sparar JSON & TXT)")
+    print(" AUTOPILOT DOCX-MINER (Sparar JSON & TXT)")
     print("="*50 + "\n")
     
     json_file = input("Namn på JSON-fil med frågor (t.ex. questions.json): ").strip()
@@ -83,7 +83,7 @@ def main():
     if not fragor:
         return
         
-    print(f"✅ Laddade in {len(fragor)} frågor från filen!")
+    print(f"Laddade in {len(fragor)} frågor från filen!")
     
     party_name = input("Partinamn att spara under (t.ex. SD, C): ").strip()
     
@@ -95,7 +95,7 @@ def main():
 
     docx_files = [f for f in os.listdir(doc_folder) if f.endswith('.docx')]
     if not docx_files:
-        print(f"❌ Inga DOCX-filer hittades i mappen '{doc_folder}'.")
+        print(f"Inga DOCX-filer hittades i mappen '{doc_folder}'.")
         return
 
     print(f"Hittade {len(docx_files)} DOCX-filer att söka igenom.\n")
@@ -111,13 +111,13 @@ def main():
                 collected_count = f.read().count(f"[{topic}]")
         
         print(f"\n" + "-"*50)
-        print(f"🔍 BÖRJAR SÖKA EFTER: {topic}")
-        print(f"❓ Fråga: {prompt}")
-        print(f"💾 Redan insamlade i filen: {collected_count}/10")
+        print(f"BÖRJAR SÖKA EFTER: {topic}")
+        print(f"Fråga: {prompt}")
+        print(f"Redan insamlade i filen: {collected_count}/10")
         print("-" * 50)
         
         if collected_count >= 10:
-            print(f"✅ Redan klar med denna! Hoppar över.")
+            print(f"Redan klar med denna! Hoppar över.")
             continue
         
         for docx_file in docx_files:
@@ -128,7 +128,7 @@ def main():
             # Vi låter källan bara vara filnamnet
             docx_link = docx_file
             
-            print(f"\n📄 Läser in och rankar: {docx_file} ...")
+            print(f"\nLäser in och rankar: {docx_file} ...")
             chunks = extract_and_chunk_docx(docx_path)
             
             if not chunks:
@@ -157,13 +157,13 @@ def main():
                         save_to_reference_file(party_name, topic, chunk_text, docx_link)
                         save_to_json_dataset(party_name, topic, prompt, chunk_text)
                         collected_count += 1
-                        print("✅ Sparad i både txt och json!")
+                        print("Sparad i både txt och json!")
                         break
                     elif svar == 'N':
-                        print("🗑️ Kastad.")
+                        print("Kastad.")
                         break
                     elif svar == 'S':
-                        print("⏭️ Hoppar till nästa fil för denna fråga...")
+                        print("⏭Hoppar till nästa fil för denna fråga...")
                         break 
                     elif svar == 'Q':
                         print("Avbryter...")
@@ -175,11 +175,11 @@ def main():
                     break
         
         if collected_count >= 10:
-            print(f"\n🎉 Snyggt! 10/10 träffar för '{topic}'. Går till nästa fråga...")
+            print(f"\nSnyggt! 10/10 träffar för '{topic}'. Går till nästa fråga...")
         else:
-            print(f"\n⚠️ Slut på filer. Hittade bara {collected_count}/10 träffar för '{topic}'. Går vidare...")
+            print(f"\nSlut på filer. Hittade bara {collected_count}/10 träffar för '{topic}'. Går vidare...")
 
-    print("\n✅ Hela frågelistan är genomgången! Kolla dina filer.")
+    print("\nHela frågelistan är genomgången! Kolla dina filer.")
 
 if __name__ == "__main__":
     main()
