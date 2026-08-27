@@ -10,17 +10,34 @@ The AI models used (SBERT and mDeBERTa) are inherently neutral logic engines. Th
 
 IMPORTANT: ANY DATA GATHERED TO TRAIN THE MODELS WILL BE STRICTLY USED FOR THAT PURPOSE. THERE WILL BE NO DATA SELLING.
 
+Any interest for commercial use will be strictly DENIED.
+
 ## License
 
-**The Non-Commercial Public License (NCPL)**
-Copyright (c) 2026 LilyPersilly[cite: 4]
+The Non-Commercial Public License (NCPL)
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software, associated datasets, and any future fine-tuned model weights (collectively, the "Software"), to run, execute, demonstrate, and study the Software for public or private non-commercial purposes (including streaming, content creation, and educational use), subject to the following conditions[cite: 4]:
+Copyright (c) 2026 LilyPersilly
 
-1. **CODE RESTRICTION:** The source code, associated datasets, and any fine-tuned models derived from the Software may NOT be incorporated into, bundled with, or used to power any commercial, for-profit, or revenue-generating products, services, or business operations whatsoever[cite: 4].
-2. **INCLUSION:** Any distribution of modified versions, derivative works, or fine-tuned model weights must also include this exact license text and remain strictly non-commercial[cite: 4].
+Permission is hereby granted, free of charge, to any person obtaining a copy 
+of this software, associated datasets, and any future fine-tuned model weights 
+(collectively, the "Software"), to run, execute, demonstrate, and study the 
+Software for public or private purposes (including live streaming, content creation, 
+and educational use, even if the hosting platform displays advertisements or 
+generates platform-native creator revenue), subject to the following conditions:
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT[cite: 4].
+1. CODE RESTRICTION: The source code, associated datasets, and any fine-tuned 
+models derived from the Software may NOT be incorporated into, bundled with, 
+or used to power any commercial software products, SaaS platforms, paid APIs, 
+for-profit business operations, or standalone revenue-generating services. 
+
+2. INCLUSION: Any distribution of modified versions, derivative works, or 
+fine-tuned model weights must also include this exact license text and remain 
+strictly non-commercial.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+
 ## Key Features
 
 * **Dual-Stage Neural Inference:** Combines a local fine-tuned SBERT model (`models/fine_tuned_sbert`) for semantic similarity with mDeBERTa-v3 (`MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7`) to determine if a user's statement logically supports or contradicts a party's stance.
