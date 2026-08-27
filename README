@@ -1,0 +1,63 @@
+# Neural Political Compass
+
+A Streamlit-based web application that analyzes political text and matches user stances to political parties using a two-stage neural inference engine. The system leverages SBERT for semantic routing and mDeBERTa for Natural Language Inference (NLI) to evaluate logical alignment, contradiction, and neutrality.
+
+## Ideology & Methodology
+
+The Neural Political Compass operates on the premise of transparent, data-driven political analysis. Traditional political quizzes force users into pre-defined boxes using rigid multiple-choice questions. This project takes a different ideological approach: evaluating a user's organic, free-form text. 
+
+The AI models used (SBERT and mDeBERTa) are inherently neutral logic engines. They do not possess a political stance. The accuracy and ideological mapping of the system are entirely dependent on the quality, breadth, and accuracy of the party stances provided in the `/datasets` directory. The tool is designed for educational, analytical, and exploratory purposes, allowing users to trace exactly *why* a logical entailment or contradiction was flagged. 
+
+IMPORTANT: ANY DATA GATHERED TO TRAIN THE MODELS WILL BE STRICTLY USED FOR THAT PURPOSE. THERE WILL BE NO DATA SELLING.
+
+## License
+
+**The Non-Commercial Public License (NCPL)**
+Copyright (c) 2026 LilyPersilly[cite: 4]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software, associated datasets, and any future fine-tuned model weights (collectively, the "Software"), to run, execute, demonstrate, and study the Software for public or private non-commercial purposes (including streaming, content creation, and educational use), subject to the following conditions[cite: 4]:
+
+1. **CODE RESTRICTION:** The source code, associated datasets, and any fine-tuned models derived from the Software may NOT be incorporated into, bundled with, or used to power any commercial, for-profit, or revenue-generating products, services, or business operations whatsoever[cite: 4].
+2. **INCLUSION:** Any distribution of modified versions, derivative works, or fine-tuned model weights must also include this exact license text and remain strictly non-commercial[cite: 4].
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT[cite: 4].
+## Key Features
+
+* **Dual-Stage Neural Inference:** Combines a local fine-tuned SBERT model (`models/fine_tuned_sbert`) for semantic similarity with mDeBERTa-v3 (`MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7`) to determine if a user's statement logically supports or contradicts a party's stance.
+* **Sliding Window Chunking:** Automatically segments long user inputs into contextual chunks using a sliding window approach for granular, sentence-by-sentence evaluation.
+* **Multi-Pillar Analysis:** Categorizes ideological matching across four core political domains: Economy, Climate, Immigration, and Law And Order.
+* **Dynamic Scoring Modes:** Offers three distinct scoring algorithms—Standard, SANN, and Relativ—to adjust how cosine similarity peaks are weighted and scaled in the final calculation.
+* **Interactive Visualizations:** Generates Plotly-powered radar and bar charts to visualize overall alignment and detailed breakdowns per political pillar.
+* **Inference Traceability & Feedback:** Displays the exact logical rationale for every matched sentence. Users can review the entailment/contradiction status and submit manual corrections directly into a local dataset (`nli_training_dataset.json`) for future model fine-tuning.
+
+## Prerequisites & Installation
+
+Ensure you have Python installed. The application includes a stress test that attempts to utilize CUDA (with cuDNN fallback protection) or Apple MPS, gracefully defaulting to CPU if hardware acceleration is unavailable. On Windows, it handles `_internal/torch/lib` DLL pathing automatically.
+
+**Core Dependencies:**
+* `streamlit`
+* `torch`
+* `transformers`
+* `sentence-transformers`
+* `plotly`
+* `pandas`
+
+## Project Structure
+
+* **`app.py`**: The Streamlit frontend, handling the user interface, state management, and Plotly visualizations.
+* **`neural_net.py`**: The backend ML pipeline handling data ingestion, PyTorch model loading, tensor operations, and the NLI scoring logic.
+* **`/datasets/`**: Directory for political party JSON files. Each file must include party metadata, a hex color code, and political stances organized by the four pillars.
+* **`/exempel/`**: Directory for saving and loading pre-defined test scenarios in JSON format.
+* **`/models/fine_tuned_sbert/`**: Local directory for the required SBERT model weights.
+
+## Usage
+
+1. Populate the `/datasets` directory with properly formatted party JSON data.
+2. Launch the Streamlit application:
+   
+   bash
+   python -m streamlit run app.py
+   
+3. Input your political stances across the four domain tabs, or load a pre-existing JSON example from the sidebar.
+4. Click **Utför Retorisk & Logisk Analys** to process the text.
+5. Review the resulting podium match, radar charts, and expand the bottom sections to evaluate the exact inference tracing per sentence.
