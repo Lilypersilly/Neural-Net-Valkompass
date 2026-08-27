@@ -1,0 +1,22 @@
+The Non-Commercial Public License (NCPL)
+
+Copyright (c) 2026 LilyPersilly
+
+Permission is hereby granted, free of charge, to any person obtaining a copy 
+of this software, associated datasets, and any future fine-tuned model weights 
+(collectively, the "Software"), to deal in the Software without restriction, 
+including without limitation the rights to use, copy, modify, merge, publish, 
+distribute, and/or study the Software, subject to the following condition:
+
+1. RESTRICTION: The Software, associated datasets, and any fine-tuned models 
+derived from it may NOT be used for any commercial, for-profit, or revenue-generating 
+purposes whatsoever. This restriction applies to all individuals, corporate 
+entities, partnerships, and solo entrepreneurs. 
+
+2. INCLUSION: Any modified versions, derivative works, or fine-tuned model 
+weights distributed by a user must also include this exact license text and 
+remain strictly non-commercial.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
